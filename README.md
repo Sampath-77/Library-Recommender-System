@@ -40,16 +40,20 @@ Copy code
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 ```bash
 git clone <your-github-repo-url>
 cd Contextual-Library-Recommender
+```
+---
 2️⃣ Install Dependencies
-bash
+```bash
 Copy code
 pip install -r requirements.txt
+```
+---
 3️⃣ Run the App
-bash
+```bash
 Copy code
 streamlit run app.py
 🧠 How It Works
@@ -59,35 +63,48 @@ Removed null values and duplicates
 Extracted useful book fields (title, author, genre, category, summary, etc.)
 
 Created a context column by combining multiple features
-
-🔍 NLP & Similarity Model
+```
+---
+##🔍 NLP & Similarity Model
+``` bash
 Converted book text features into vectors using TF-IDF / CountVectorizer
 
 Calculated similarity using Cosine Similarity
 
 Exported processed objects → book_dict.pkl and similarity.pkl
-
-⚡ Fast Runtime via Pickle
+```
+---
+##⚡ Fast Runtime via Pickle
+```bash
 Model trained once in notebook
 
 Streamlit app loads .pkl files for instant recommendation
-
-🌐 Deployment
+```
+---
+##🌐 Deployment
+```bash
 UI built using Streamlit
 
 Can be deployed locally or hosted via Streamlit Cloud / ngrok
-
-🎥 Screenshots
+```
+---
+##🎥 Screenshots
+```bash
 Input Interface	Output Recommendation
 	
-
-📌 More About This Project
+```
+---
+##📌 More About This Project
+```bash
 🔹 Designed as a mini project for academic submission
 🔹 Can be integrated into digital library management systems
 🔹 Works offline — no external API required
 🔹 Can be extended to hybrid/user-based recommendation later
 🔹 Demonstrates ML + NLP + Deployment skills in a small scale use case
-
+```
+---
 🔗 Connect With Me
 👨‍💻 GitHub: [https://github.com/Sampath-77]
 💼 LinkedIn: [https://www.linkedin.com/in/sampth/]
+---
+**Project By: Sampath Kumar N A
